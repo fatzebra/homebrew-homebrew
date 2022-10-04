@@ -5,6 +5,12 @@ class OpensearchAT13 < Formula
   sha256 "3927332336e10e7a3c8fb2c8976200d313dcace6358d6a90f5221d6276f17df7"
   license "Apache-2.0"
 
+  bottle do
+    root_url "https://github.com/fatzebra/homebrew-homebrew/raw/main/Bottles"
+    rebuild 1
+    sha256 cellar: :any_skip_relocation, arm64_monterey: "cbba80f75660198cffd1d05e73b5e3df142eb1217631dd5e806b2e6de2816de0"
+  end
+
   depends_on "gradle@6" => :build
   depends_on "openjdk"
 
