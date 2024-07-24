@@ -1,5 +1,5 @@
 
-class OpensearchAT1 < Formula
+class OpensearchAT13 < Formula
   desc "Open source distributed and RESTful search engine"
   homepage "https://github.com/opensearch-project/OpenSearch"
   url "https://github.com/opensearch-project/OpenSearch/archive/1.3.12.tar.gz"
